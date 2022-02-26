@@ -13,6 +13,7 @@ function compute()
    { 
         alert("Enter Positive no ")
         document.getElementById('principal').value = "";
+        document.getElementById('principal').focus();
    }
    else
     {
